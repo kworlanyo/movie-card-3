@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #E2E2E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+    width: 50%;
+    max-width: 800px;
+    display: flex;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(26, 25, 25, 0.541);
+}
+
+.left-container {
+    flex: 1;
+}
+
+.left-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    padding: 4rem;
+    gap: 4rem;
+}
+
+.right-container .top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right-container .info {
+    display: flex;
+    gap: 5rem;
+}
+
+.right-container .info p {
+    font-size: 1.4rem;
+}
+
+.right-container .stars {
+    display: flex;
+    gap: 1rem;
+}
+
+.right-container .stars i {
+    color: white;
+}
+
+.right-container .middle p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.right-container .middle a {
+    text-decoration: none;
+    color: #FDCC06;
+}
+
+.right-container .button {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 2px solid #FDCC06;
+    width: fit-content;
+    color: #FDCC06;
+}
+
+.right-container .button a {
+    color: #FDCC06;
+    text-decoration: none;
+}
